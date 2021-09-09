@@ -1,0 +1,30 @@
+from os import linesep
+
+keywords = {
+    " ?VYBER ": "SELECT ",
+    " ?UPDATE ": " AKTUALIZUJ ",
+    " ?VLOŽ DO ": "INSERT INTO ",
+    " ?VYTVOŘ DATABÁZI ": "CREATE DATABASE ",
+    " ?UPRAV DATABÁZI ": "ALTER TABLE ",
+    " ?VYTVOŘ TABULKU ": "CREATE TABLE ",
+    " ?UPRAV TABULKU": "ALTER TABLE ",
+    " ?SMAŽ TABULKU ": "DROP TABLE ",
+    " ?VYTVOŘ INDEX ": "CREATE INDEX ",
+    " ?SMAŽ INDEX ": "DROP INDEX ",
+    " Z ": " FROM ",
+    " KDE ": " WHERE ",
+    " A ": " AND ",
+    " NEBO ": " OR ",
+    " NEPLATÍ ": " NOT ",
+    " SEŘAĎ PODLE ": " ORDER BY ",
+    " HODNOTY ": " VALUES ",
+    " JE PRÁZDNÝ ": " NULL ",
+    " NASTAV ": " SET ",
+    " ?SMAŽ ": "DELETE ",
+    " PŘIPOJ ZLEVA ": " LEFT JOIN ",
+    " PŘIPOJ ZPRAVA ": " RIGHT JOIN ",
+    " PŘIPOJ CELÉ ": " FULL JOIN ",
+    " PŘIPOJ VNITŘNĚ ": " INNER JOIN ",
+    " VŠE ": " * ",
+    f"\. |({linesep})": ";"
+    }
