@@ -2,7 +2,7 @@ from os import linesep
 
 keywords = {
     " ?VYBER ": "SELECT ",
-    " ?UPDATE ": " AKTUALIZUJ ",
+    " ?AKTUALIZUJ ": " UPDATE ",
     " ?VLOŽ DO ": "INSERT INTO ",
     " ?VYTVOŘ DATABÁZI ": "CREATE DATABASE ",
     " ?UPRAV DATABÁZI ": "ALTER TABLE ",
