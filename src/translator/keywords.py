@@ -5,7 +5,6 @@ keywords = {
     " ?AKTUALIZUJ ": " UPDATE ",
     " ?VLOŽ DO ": "INSERT INTO ",
     " ?VYTVOŘ DATABÁZI ": "CREATE DATABASE ",
-    # " ?UPRAV DATABÁZI ": "ALTER TABLE ",
     " ?VYTVOŘ TABULKU ": "CREATE TABLE ",
     " ?UPRAV TABULKU": "ALTER TABLE ",
     " ?SMAŽ TABULKU ": "DROP TABLE ",
@@ -26,6 +25,11 @@ keywords = {
     " PŘIPOJ ZPRAVA ": " RIGHT JOIN ",
     " PŘIPOJ CELÉ ": " FULL JOIN ",
     " PŘIPOJ VNITŘNĚ ": " INNER JOIN ",
+    " PŘIPOJ PŘIROZENĚ ": " NATURAL JOIN ",
+    " PŘIPOJ ": " JOIN ",
+    " NA ": "ON",
+    " SESTUPNĚ": " DESC",
+    " VZESTUPNĚ": " ASC",
     " VŠE ": " * ",
     f"\. |({linesep})": ";"
-    }
+}
